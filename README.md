@@ -51,10 +51,10 @@ We are chechecking these functions:
     }
 ```
 
-# Step 1:
+# 👉 Step 1:
 Create an empty activity app. You can run it on a device.
 
-# Step 2:
+# 👉 Step 2:
 Modify the `MainActivity.java` file ovveride tha activity's methods.
 Use the following package to log:
 ```JAVA
@@ -106,3 +106,5 @@ Ovveride the other methods with the log:
         Log.i("Activity1", "onRestart");
     }
 ```
+
+👍 Finally you can check the app, the logs will be visible in `LogCat`. Use the tag `Activity1` to filter the logcat.
